@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Flat UI Free
 =======
 
@@ -86,3 +87,7 @@ Facebook: [http://www.facebook.com/designmodo](http://www.facebook.com/designmod
 RSS: [http://feeds.feedburner.com/designmodo](http://feeds.feedburner.com/designmodo)
 
 Google+: [https://www.google.com/+DesignModo](https://www.google.com/+DesignModo)
+=======
+merry_trips
+===========
+>>>>>>> 5497721c4194b3378d9098281634e12da5f849cb
