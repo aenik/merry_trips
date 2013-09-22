@@ -1,0 +1,38 @@
+div{
+	/*border: 1px solid red;*/
+}
+.activate-account-box{
+	background-color: rgb(242, 242, 242);
+	color: rgb(68, 84, 106);
+	padding-top: 15%;
+	padding-bottom: 15%;
+	padding-right: 2%;
+	font-size: 1.7em;
+	text-align: center;
+}
+
+input[type="email"], textarea,
+input[type="password"]{
+  background-color : transparent; 
+}
+
+textarea::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder {
+ 	color: rgb(46, 117, 182);	
+}
+
+textarea,
+input[type="password"],
+input[type="email"]{
+	-webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.btn{
+	margin-left: 0px;
+	width: 20%;
+}
+input{
+	width: 30%;
+}

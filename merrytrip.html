@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Merry Trips</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Loading Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Loading Flat UI -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+    <link href="css/merrytrips.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Draws Table -->
+    <div class="container">
+        <div class="row demo-row">
+            <div class="table">
+                <table class="table table-bordered">
+                    <tr>
+                        <th rowspan="2">MerryTrips</th>
+                        <td>Module: Home Page</td>
+                        <td>Version: Draft</td>
+                        <th rowspan="2">Page1</th>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>&zwnj;</td>   <!-- To keep the cell space constant vertically -->
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Draws the links and the head-box for find a ride. Also makes the 2 boxes to get in the input. -->
+    <div class="container">
+        
+        <!-- Draws the links and the head-box for find a ride -->
+        <div class="row demo-row row-remove-margin">
+            <div class="span2 head-box remove-margin">
+                Find a Ride
+            </div>
+            <div class="span3 offset3 links">
+                <a href="#">How it Works?</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#">Saftey</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#">FAQs</a>
+            </div>
+            <div class="span1 loginlink pull-right">
+                <a href="#">Login</a>
+            </div>
+        </div>
+
+        <!-- Draws the two boxes to take in input from the user -->
+        <div class="row demo-row">
+            
+            <!-- Box 1 -->
+            <div class="span5 box1">
+                <form>
+                    <fieldset>
+                        <input type="text" placeholder="I am a host looking for a guest"><br>
+                        <input type="text" placeholder="From: Delhi, Mumbai etc">
+                        <input type="text" placeholder="9-Nov-2012">
+                        <input type="text" placeholder="To: Jaipur, Indore etc">
+                        <button type="submit" class="btn btn-success" href="#">Go</button>
+                    </fieldset>
+                </form>
+                <a href="#">&nbsp;Advanced Search</a>
+            </div>
+
+            <!-- Box 2 -->
+            <div class="span6 box2">
+                Marketing Space</br>
+                <ul>
+                  <li><a href="#">Travel Safe</a>&nbsp;|&nbsp;</li>
+                  <li><a href="#">Make Friends</a>&nbsp;|&nbsp;</li>
+                  <li><a href="#">Just for outstation trips</a>&nbsp;|&nbsp;</li>
+                  <li><a href="#">Why bus?</a>&nbsp;|&nbsp;</li>
+                  <li><a href="#">Go Green</a>&nbsp;|&nbsp;</li>
+                  <li><a href="#">Surprise Gifts</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Draw the lower part to show the current trips and the members in the family -->
+    <div class="container">
+        <!-- Headboxes for recently posted trips and new members in our family -->
+        <div class="row demo-row row-remove-margin">
+            <div class="span2 head-box remove-margin">
+                Recently Posted Trips
+            </div>
+        
+            <div class="span3 offset5 head-box">
+                New Members in Our Family
+            </div>
+        </div>
+
+        <!-- For the 2 feeds -->
+        <div class="row demo-row">
+            <!-- Recently posted trips -->
+            <div class="span7">
+                <!-- First trip -->
+                <div class="row background-grey">
+                    <!-- Image -->
+                    <div class="span2 remove-margin">
+                        <img src="new.jpg">
+                    </div>
+
+                    <!-- Confirmed or Pending Circle -->
+                    <div class="span2">
+                        <div class="circle confirmed">
+                            <div class="circle-content">
+                                <hr class="hr-top">
+                                Confirmed<br> Trip
+                                <hr class="hr-bottom">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Details of the trip -->
+                    <div class="span3 details">
+                        <b>Vinod<br><br>
+                        Banglore - Madurai<br><br>
+                        Nov 9th | 10 PM<br>
+                        Maruti Wagon R</b>
+                    </div>
+                </div>
+
+                <!-- Second Trip -->
+                <div class="row background-grey">
+                    <!-- Image -->
+                    <div class="span2 remove-margin">
+                        <img src="new2.jpg">
+                    </div>
+
+                    <!-- Confirmed or Pending Circle -->
+                    <div class="span2">
+                        <div class="circle pending">
+                            <div class="circle-content">
+                                <hr class="hr-top">
+                                Travel If <br>Full Trip
+                                <hr class="hr-bottom">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Details of the trip -->
+                    <div class="span3 details">
+                        <b>Lakshmi<br><br>
+                        Banglore - Mysore<br><br>
+                        Nov 9th | 10 PM<br>
+                        Maruti Wagon R</b>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Members feed -->
+            <div class="span4 members background-grey">
+                <!-- Member 1 -->
+                <div class="row demo-row">
+                    <!-- Image -->
+                    <div class="span1">
+                        <img src="new.jpg">
+                    </div>
+                    <!-- Detail -->
+                    <div class="span3">
+                        <b>Vinod J | Green Merry Tripper<br>Likes Vada Pav, Bhajji | Got Pizza <br> Hut voucher as gift</b>
+                    </div>
+                </div>
+                <hr class="break">
+
+                <!-- Member 2 -->
+                <div class="row demo-row">
+                    <!-- Image -->
+                    <div class="span1">
+                        <img src="new2.jpg">
+                    </div>
+                    <!-- Detail -->
+                    <div class="span3">
+                        <b>Lakshmi V | Green Merry Tripper<br>Likes Lays and Coke | Got Airtel <br> voucher as gift</b>
+                    </div>
+                </div>
+                <hr class="break">
+
+                <!-- Member 3 -->
+                <div class="row demo-row">
+                    <!-- Image -->
+                    <div class="span1">
+                        <img src="new.jpg">
+                    </div>
+                    <!-- Detail -->
+                    <div class="span3">
+                        <b>Lakhan S | Blue Merry Tripper<br>Likes Paneer dishes and sweets | <br>Got flipkart voucher as gift</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

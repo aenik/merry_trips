@@ -1,0 +1,14 @@
+.green-member-registration{
+	padding-top: 4%;
+	padding-bottom: 3%;
+	border: 1px solid rgb(201, 201, 201);
+}
+.alert-circle{
+	margin-left: 3%;
+}
+.registration-successful{
+	font-size: 0.7em;
+	color: rgb(46,117,182);
+	display: inline-block;
+	margin-left: 3%;
+}

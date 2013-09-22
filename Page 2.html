@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Merry Trips</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Loading Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Loading Flat UI -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+    <link href="css/merrytrips.css" rel="stylesheet">
+    <link href="css/merrytrips2.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Draws Table -->
+    <div class="main">
+	    <div class="container">
+	        <div class="row demo-row">
+	            <div class="table">
+	                <table class="table table-bordered">
+	                    <tr>
+	                        <th rowspan="2" class="heading-modify center">MerryTrips</th>
+	                        <td>Module: <b>Search Result Page</b></td>
+	                        <td>Version: <b>Draft</b></td>
+	                        <th rowspan="2" class="center"><b>Page1</b></th>
+	                    </tr>
+
+	                    <tr>
+	                        <td></td>
+	                        <td>&zwnj;</td>   <!-- To keep the cell space constant vertically -->
+	                    </tr>
+	                </table>
+	            </div>
+	        </div>
+	    </div>
+
+	    <div class="container">
+	    	<div clas="row demo-row">
+	    		<div class="search">
+		    		<div class="modify-search" data-toggle="collapse" data-target="#decollapse-search">
+	    				<i class="icon-arrow-right"></i>
+	    				Modify Searching
+		    		</div>
+		    		<div class="user-search">
+		    			Your Search: 9th November 2012 | Banglore - Dindigul | 2 Seats
+		    		</div>
+
+		    		<div id="decollapse-search" class="collapse in background-grey">
+		    			<div class="collapsed-content">
+		    			
+			    			<form>
+			    				<fieldset>
+									<input type="text" placeholder="Banglore">
+		                            <input type="date" placeholder="9-Nov-2012"><br>
+		                            <input type="text" placeholder="Dindigul">
+		                            <button type="submit" class="btn search-button" href="#">Search</button><br><br>
+		                            <b>Advanced Search</b><br><br>
+		                            <div class="span4 remove-margin">
+		                            	<input type="checkbox">&nbsp;&nbsp;<span class="shift">Search only <a href="#">Green Hosts</a></span><br>
+		                            	<input type="checkbox">&nbsp;&nbsp;<span class="shift">Search only AC cars</span>
+		                            </div>
+		                            <div class="span6 offset1">
+		                            <span class="shift">Searching Driving Skill Credibility Rating</span><br>
+		                             <span class="shift">Search Punctuality Rating</span>
+		                             </div>
+
+			    				</fieldset>
+			    			</form>
+		    			</div>
+		    		</div>
+	    		</div>
+	    	</div>
+	    	<div class="row demo-row">
+	    		<div class="span12 background-grey">
+	    			<div class="span3 remove-margin">
+	    				<div class="row demo-row">
+	    					<div class="span3">
+	    						<img src="new.jpg">
+	    						<div class="head-box">
+	    							Vinod
+	    						</div>
+	    					</div>
+	    				</div>
+	    				<div class="row demo-row">
+	    					<div class="driver-ratings">
+	    						<br>
+	    						Driving Skills : <br><br>
+	    						Punctuality : <br><br>
+	    						<a href="#">Detailed Creditibility Chart</a>
+	    					</div>
+	    				</div>
+	    			</div>
+
+	    			<div class="span2 status move-one-left">
+	                    <div class="circle confirmed">
+	                        <div class="circle-content">
+	                            <hr class="hr-top">
+	                            CONFIRMED <br>TRIP
+	                            <hr class="hr-bottom">
+	                        </div>
+	                    </div>
+	                </div>
+
+	            	<div class="span6">
+						<div class="row demo-row fare">
+	            			<table class="table">
+	                			<tr>
+	                				<thead><span class="table-heading">Banglore - Madurai | Nov 9th | 10 PM | Maruti Wagon R</span></thead>
+	                    			<th rowspan="2"><b>Route</b></th>
+	                    			<td>Place:</td>
+	                    			<td><a href="#" class="banglore">Banglore</a></td>
+	                    			<td><a href="#" class="salem">Salem</a></td>
+	                    			<td><a href="#" class="abcd">Namakkal</a></td>
+	                    			<td><a href="#">Karur</a></td>
+	                    			<td><a href="#">Dindigul</a></td>
+	                    			<td><a href="#">Madurai</a></td>
+	               				</tr>
+	               		
+	                			<tr>
+	                    			<td>Fare:</td>
+	                    			<td>Startpoint</td>
+	                    			<td>400/-</td>
+	                    			<td>400/-</td>
+	                    			<td>500/-</td>
+	                    			<td>450/-</td>
+	                    			<td>600/-</td>
+	                			</tr>
+	            			</table>
+	        			</div>
+	            	</div>
+	            	<div class="span2 book pull-right">
+	            		Fare: <span class="price"><b>Rs. 450/-</b></span><br>Per Person<br><br>
+	            		<form>
+	            			<fieldset>
+	            				<button type="submit" class="btn" href="#">Book Now</button>		
+	            			</fieldset>
+	            		</form>
+	            	</div>
+	            	<div class="span2 pull-right seats-available">
+	            		Seat Availability<br><span class="price">3</span> Seats Left<br><br>
+	            		<div class="seats"></div>
+	            		<div class="seats"></div>
+	            		<div class="seats"></div>
+	            		<div class="seats success"></div>
+	            	</div>
+	            	<div class="span3 pull-right">
+	            		<div class="conditions">
+		            		<div class="span2 condition">
+		            			Allows only <a class="green-guests">Green Guests</a> to book
+		            		</div>
+	            		</div>
+	            	</div>
+	    		</div>
+	    	</div>
+	    </div>
+
+	     <div class="container">
+	    	<div class="row demo-row">
+	    		<div class="span12 background-grey">
+	    			<div class="span3 remove-margin">
+	    				<div class="row demo-row">
+	    					<div class="span3">
+	    						<img src="new2.jpg">
+	    						<div class="head-box">
+	    							Lakshmi
+	    						</div>
+	    					</div>
+	    				</div>
+	    				<div class="row demo-row">
+	    					<div class="driver-ratings">
+	    						<br>
+	    						Driving Skills :	<br><br>
+	    						Punctuality : <br><br>
+	    						<a href="#">Detailed Creditibility Chart</a>
+	    					</div>
+	    				</div>
+	    			</div>
+
+	    			<div class="span2 status move-one-left">
+	                    <div class="circle pending">
+	                        <div class="circle-content">
+	                            <hr class="hr-top">
+	                           	TRAVEL IF <br> FULL TRIP
+	                            <hr class="hr-bottom">
+	                        </div>
+	                    </div>
+	                </div>
+
+	            	<div class="span6">
+						<div class="row demo-row fare">
+	            			<table class="table">
+	                			<tr>
+	                				<thead><span class="table-heading">Banglore - Madurai | Nov 9th | 10 PM | Maruti Wagon R</span></thead>
+	                    			<th rowspan="2"><b>Route</b></th>
+	                    			<td>Place:</td>
+	                    			<td><a href="#" class="banglore">Banglore</a></td>
+	                    			<td><a href="#" class="salem">Salem</a></td>
+	                    			<td><a href="#">Namakkal</a></td>
+	                    			<td><a href="#">Karur</a></td>
+	                    			<td><a href="#">Dindigul</a></td>
+	                    			<td><a href="#">Madurai</a></td>
+	               				</tr>
+	               		
+	                			<tr>
+	                    			<td>Fare:</td>
+	                    			<td>Startpoint</td>
+	                    			<td>400/-</td>
+	                    			<td>400/-</td>
+	                    			<td>500/-</td>
+	                    			<td>450/-</td>
+	                    			<td>600/-</td>
+	                			</tr>
+	            			</table>
+	        			</div>
+	            	</div>
+	            	<div class="span2 book pull-right">
+	            		Fare: <span class="price"><b>Rs. 450/-</b></span><br>Per Person<br><br>
+	            		<form>
+	            			<fieldset>
+	            				<button type="submit" class="btn" href="#">Book Now</button>		
+	            			</fieldset>
+	            		</form>
+	            	</div>
+	            	<div class="span2 pull-right seats-available">
+	            		<span class="content">Seat Availability<br><span class="price">2</span> Seats Left<br></span><br>
+	            		<div class="seats"></div>
+	            		<div class="seats"></div>
+	            		<div class="seats success"></div>
+	            		<div class="seats success"></div>
+	            	</div>
+	            	<div class="span3 pull-right">
+	            		<div class="conditions">
+		            		<div class="span2 condition">
+		            			Allows only ladies to book
+		            		</div>
+		            		<div class="span2 condition">
+		            			Allows only <a class="green-guests">Green Guests</a> to book
+		            		</div>
+	            		</div>
+	            	</div>
+	    		</div>
+	    	</div>
+	    </div>
+	</div>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/merrytrip2.js"></script>
+  </body>
+</html>

@@ -1,0 +1,177 @@
+/*cotainer*/
+.container{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+/*table css*/
+th.center{
+	text-align: center;
+}
+th.heading-modify{
+	font-size: 1.5em;
+	color: rgb(127,127,127);
+}
+.main{
+	color: black;
+}
+.remove-margin{
+	margin: 0%;
+}
+
+.head-box{
+	background-color: rgb(84,130,53);
+	color: white;
+	text-align: center;
+	padding: 1% 2%;
+}
+
+/*top links*/
+.links{
+	padding: 1% 0%;
+}
+
+.loginlink{
+	text-align: center;
+	padding: 1% 4%;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+	margin-left: 0%;
+}
+ul li{
+	float: left;
+}
+
+/*two boxes*/
+.row-remove-margin{
+	margin-bottom: 0%;
+}
+.box1{
+	padding: 2%;
+	background-color: rgb(242, 242, 242);
+	margin: 0%;
+}
+.box2{
+	padding: 2%;
+	background-color: rgb(242, 242, 242);
+	font-size: 1.3em;
+}
+.box2 li{
+	font-size: 0.6em;
+}
+
+input[placeholder = "9-Nov-2012"]{
+	margin-left: 3%;
+	width: 26%;
+}
+
+/* to make the input field background transparent */
+input[type="text"], textarea,
+input[type="date"]{
+  background-color : transparent; 
+}
+
+/* to change the color of the text in the input field to blue for all the browsers */
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: rgb(46, 117, 182);
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+ color: rgb(46, 117, 182);
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: rgb(46, 117, 182);
+}
+
+textarea::-webkit-input-placeholder,
+input[type="text"]::-webkit-input-placeholder,
+input[type="date"]::-webkit-input-placeholder {
+ 	color: rgb(46, 117, 182);	
+}
+
+/*making the input field with flat corners */
+textarea,
+input[type="text"],
+input[type="date"]{
+	-webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+/*button*/
+.btn{
+	margin-left: 3%;
+	-webkit-border-radius: 10px;
+  	-moz-border-radius: 10px;
+  	border-radius: 10px;
+  	position: relative;
+  	top: -4px;
+  	width: 30%;
+  	background-color: rgb(146, 208, 80);
+}
+.btn:hover{
+	background-color: rgb(146, 235, 80);
+}
+/*trip*/
+.background-grey{
+	background-color: rgb(217, 217, 217);	
+}
+.details{
+	font-size: 1.1em;
+	padding-top: 2%;	
+}
+.circle{
+	margin-left: 13%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	text-align: center;
+	width: 100px;
+    height: 100px;
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; 
+    border: 3px solid white;
+    font-size: 0.8em;
+}
+hr{
+	background-color: white;
+	width: 95%;
+	margin-left: 3%;
+}
+.hr-bottom{
+	margin-bottom: 0%;
+	margin-top: 5%;
+}
+.hr-top{
+	margin-top: 0%;
+	margin-bottom: 5%;
+}
+.circle-content{
+	position: relative;
+	top: 30%;
+}
+.confirmed{
+	background-color: rgb(146, 208, 80);
+	color: white;
+}
+.pending{
+	background-color: rgb(255, 192,0);
+	color: blue;
+}
+/*members*/
+.members{
+	width: 36%;	
+	margin-left: 4%;
+}
+.break{
+	background-color: rgb(180, 180, 180);
+	border-color: rgb(180, 180, 180);
+}
